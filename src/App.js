@@ -1,16 +1,23 @@
 
 import './App.scss';
-import  Header from './components/Header';
+
 import Container from 'react-bootstrap/Container';
-import HomePage from './pages/user/homePage';
+
+import RouterCustom from './router';
+import { BrowserRouter } from 'react-router-dom';
+import HeaderMe from './components/Header1';
 
 function App() {
   return (
     <div>
-      <Container>
-      <Header/>
-      </Container>
-      <HomePage/>
+      {/* <Container>
+      <HeaderMe/>
+      </Container> */}
+
+      <BrowserRouter>
+        <RouterCustom/>
+      </BrowserRouter>
+    
     </div>
   );
 }

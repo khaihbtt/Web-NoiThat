@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './header.scss';
 
-const Header = (props) => {
+const HeaderMe = (props) => {
   return (
     <>
       <br />
@@ -36,4 +36,4 @@ const Header = (props) => {
   );
 }
 
-export default Header;
+export default HeaderMe;
