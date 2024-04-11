@@ -1,6 +1,6 @@
 
 import './App.scss';
-
+import './style/style.scss';
 import Container from 'react-bootstrap/Container';
 
 import RouterCustom from './router';
